@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: border-box;
+    font-family: 'Inter', sans-serif;
+}
+#heading-text
+{
+    text-align: center;
+    padding: 10px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: black;
+
+
+}
+.navbar{
+    height: 101px;
+    background-color: rgba(218, 218, 218, 0.5);
+    color: #0e0d0d;
+    display: flex;
+    position: sticky;
+    /* align-items: center; */
+
+}
+
+
+
+
+.logo, img  {
+        height: 4.5em;
+        margin-left: 4em;
+        padding-bottom: 7px;
+        cursor: pointer;
+        margin-top: 8px;
+       
+    }
+
+.menu{
+    margin-left: 3rem;
+    margin-top: 10px;
+    
+    
+}
+
+.menu ul {
+list-style: none;    
+display: flex;
+gap: 35px;
+text-align: center;
+margin-top: 7px;
+font-size: 14px;
+font-family: inherit;
+line-height: 2rem;
+text-wrap: wrap;
+cursor: pointer;
+
+}
+ul span:hover {
+    text-underline-offset: 3px;
+    text-underline-width: 2px;
+
+    text-decoration-line: underline;    
+    }
+#home{
+     text-decoration-line: underline;    
+
+}
+#home:hover {
+    text-underline-offset: 3px;
+    text
+}
+
+/* .fa-solid {
+    gap:15px;
+    
+    margin-left: 6px;
+    width: 0.5rem;
+    font-weight: 600;
+    top: 28px;
+    margin-right: 10px;
+} */
+
+
+.bottom-fexed {
+
+    position: fixed;
+    bottom : 0;
+    z-index: 1;
+    width: 100vw;
+    border: 1px solid black;
+    border-radius : 5px;
+    background-color: RGB(185, 0, 0);
+    height: 8vh;
+    color: RGB(255, 255, 255);
+    overflow-x:hidden;
+    cursor: pointer;
+    text-align: center;
+
+
+}
+
+.bottom-fexed:hover{
+    border: 2px  solid black;
+    
+
+
+}
+
+.order-online {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    padding: 2px;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .heading{
+    width: 100vw;
+    height: 1rem;
+}
+
+.heading, p{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    color: #121212;
+    padding: 5px;
+    line-height: 16.9px;
+    
+}
+
+.cat_nav{
+    width: 100vw;
+    border: 1px;
+    height: 80px;
+    border-bottom: 1px  ;
+    background-color: rgba(218, 218, 218, 0.5);
+    margin-top: 0.8rem;
+}
+
+.left_bar img{
+    width: 150px;
+    margin-top: 0.6rem;
+    padding-left: 1rem;
+    margin-left: 6rem;
+    
+}
+
+
+.menu{
+    display: flex;
+    text-align: center;
+}
+
+.menu .first_{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ */
