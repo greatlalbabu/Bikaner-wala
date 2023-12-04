@@ -8,6 +8,8 @@
 
 body{
     font-family: 'Inter', sans-serif;
+    width: 100%;
+    height:100%;
 
 }
 
@@ -27,13 +29,13 @@ html{
 
 }
 .navbar{
-    height: 101px;
+    height: 6.375rem;
     background-color: #f3f2f2;
     color: RGBA(18, 18, 18, .62);
     display: flex;
     position: sticky;
     top:0;
-    width: 100vw;
+    width: 110;
     overflow-x: hidden;
     z-index:1000;
     border-bottom: 1px solid #c9c7c7;
@@ -269,45 +271,30 @@ ul span:hover {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* restaurents start */
 .Restaurants_containers{
-    width: 100vw;
-    height:100vh;
+    width: 100%;
+    height:100%;
 }
 .Restaurant-1{
-    display: flex;
-    padding: 0px 20px;
+    height: 100%;
+    width:100%;
+    /* display: flex;
+    padding: 0rem 20px;
     margin:  10px 40px;
     letter-spacing: 0.6px;
-    font-weight: 400;
-    height: 90vh;
-
-}
-
-.Restaurant-1 img{
-   width: 50%;
-     height: 90vh;
-     border-radius: 10px;
-     margin-top: 20px;
+    font-weight: 400; */
     
 
 }
+
+/* .Restaurant-1 img{
+     width: 100%;
+     height: 100%;
+     border-radius: 0.625rem;
+     margin-top: 1.25rem;
+} */
+
 .Restaurant-1 .restaurent-content{
     padding: 3em;
     display: flex;
@@ -392,19 +379,9 @@ ul span:hover {
 
 
 
-
-
-
-
-
-
-
-
-
-
 /* footer start */
 footer{
-    width: 100vw
+    width: 100%;
     
     
 
@@ -413,7 +390,7 @@ footer{
 .footer{
     background-color: #f3f2f2;
     overflow-x: hidden;
-    height: 60vh;
+    height: 60%;
     display: flex;
     margin-top: 20px;
     padding: 20px 20px;
