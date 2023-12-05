@@ -325,8 +325,8 @@ ul span:hover {
 	background: #ffffff;
 	color: #21201e;
 	text-align: center;
-	width: 300px;
-	height: 300px;
+	width: 18.75rem;
+	height: 18.75rem;
 	padding: 1rem;
 	display: flex;
 	flex-direction: column;
@@ -336,8 +336,8 @@ ul span:hover {
 	margin: 1rem;
 }
 .product .product-title, .product .product-price{
-	font-size: 13px;
-    margin-top: 5px;
+	font-size: 1rem;
+    margin-top: 1rem;
 }
 
 .product:hover img{
@@ -345,7 +345,7 @@ ul span:hover {
 }
 
 .product:hover {
-	box-shadow: 5px 15px 25px #eeeeee;
+	box-shadow: 5px 15px 25px #ec7979;
     
 }
 
@@ -361,6 +361,7 @@ ul span:hover {
 	height: 230px;
 	margin: 0.1rem;
    transition: all 0.3s;
+   
 }
 
 .product-btn{
@@ -380,7 +381,6 @@ ul span:hover {
 
 
 .like-our-products-1{
-    width: 100%;
     text-align: center;
     padding: 1rem 6rem;
     margin: 0rem 4rem;
@@ -394,7 +394,7 @@ h2, h3, p{
 .like-our-products-1 h2{
    margin-bottom: 2rem;
    font-style: normal;
-   font-weight: 300;
+   font-weight: 400;
 
 }
 
@@ -406,8 +406,9 @@ h2, h3, p{
     background-color: #fff;
     font-size: 1rem;
     color: red;
-    margin-left: 40rem;
+    margin-left: 27rem;
     margin-bottom: 2rem;
+    
 }
 
 #order-button:hover{
