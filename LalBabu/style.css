@@ -45,7 +45,7 @@ html{
 
 
 .logo{
-    width: 95vw;
+    width: 10%;
     align-items: center;
     display: flex;
     margin-left: 38px;
@@ -55,7 +55,8 @@ html{
 
 
 
-img {
+
+.logo>img {
        height: 4.5em;
         margin-left: 4em;
         padding-bottom: 7px;
@@ -65,7 +66,7 @@ img {
 }
 
 .menu{
-    margin-left: 3rem;
+    margin-left: 10rem;
     margin-top: 6px;
     margin-bottom: 6px;
     
@@ -105,13 +106,13 @@ ul span:hover {
     position: fixed;
     bottom : 0;
     z-index: 1;
-    width: 100vw;
+    width: 100%;
     border: 1px solid black;
     border-radius : 7px;
     background-color: RGB(185, 0, 0);
-    height: 8vh;
+    height: 8%;
     color: RGB(255, 255, 255);
-    overflow-x:hidden;
+    overflow:hidden;
     cursor: pointer;
     text-align: center;
 
@@ -119,7 +120,7 @@ ul span:hover {
 }
 
 .bottom-fexed:hover{
-    border: 2px  solid black;
+    outline: 1px  solid black;
 
 
 }
@@ -129,6 +130,7 @@ ul span:hover {
     margin-top: 10px;
     font-weight: bold;
     padding: 2px;
+
     
     
 }
@@ -136,28 +138,28 @@ ul span:hover {
 .icons {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 1.25rem;
     align-items: center;
     cursor: pointer;
-    width: 5rem;
-    margin-left: 60px;
+    width: 8rem;
+    margin-left: 4rem;
 }
 
 .fa-regular:hover{
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .fa-solid:hover{
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 
 .hero{
     margin: 0;
     padding: 0;
-    width: 100vw;
-    height: 90vh;
-    cursor: none;
+    width: 100%;
+    height: 90%;
+    cursor: pointer;
 }
 
 .hero img{
@@ -170,21 +172,24 @@ ul span:hover {
 
 /* sweets */
 .sweets_arrangment{
-    background-color: #F3F2F2;
-    height: 90vh;
+    background-color: #918c8c;
+    height: 90%;
     width: 100vw;
     overflow-x: hidden;
+    top:0;
    
 
 }
 .sweets_container {
-    padding: 0px 30px;
-    margin: 0px 36px;
+    background-color: rgb(243,243,243);
+    width: 100vw;
+    padding: 0rem 1.875rem;
+    /* margin: 0rem 2.25rem; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     /* justify-content: space-between; */
     /* gap: 20px; */
-    height: 85vh;
+    height: 80%;
    
 }
 
@@ -195,9 +200,10 @@ ul span:hover {
         display: flex;
         flex-direction: column;
         color: RGBA(18, 18, 18, 0.75);
-        margin: 25px 25px;
-        padding: 10px 25px 25px 25px;
-        justify-content: space-between;
+        margin: 1.56rem 1.56rem;
+        padding: 0.62rem 1.56rem 1.56rem 4rem;
+        gap: 2rem;
+        /* justify-content: space-between; */
         letter-spacing: 0.6px;
         
 }
@@ -212,22 +218,27 @@ ul span:hover {
 }
 
 .sweets_container_image {
-    margin-top: 20px;
+    margin-top: 1rem;
     
 }
-.sweets_container_image>img {
+#indian{
+    width: 100%;
+    height: 70%;
+}
+/* .sweets_container_image>img {
     height: 78vh;
     
-}
+} */
 
 .sweets_container_second {
-        display: flex;
-        flex-direction: column;
-        margin: 25px 25px;
-        padding: 10px 25px 25px 25px;
-        justify-content: space-between;
-       color: RGBA(18, 18, 18, 0.75);
-       letter-spacing: 0.6px;
+    display: flex;
+    flex-direction: column;
+    color: RGBA(18, 18, 18, 0.75);
+    margin: 1.56rem 2rem;
+    padding: 0.62rem 3rem 1rem 0.6rem;
+    gap: 2rem;
+    /* justify-content: space-between; */
+    letter-spacing: 0.6px;
        
 }
 
@@ -252,7 +263,7 @@ ul span:hover {
 
 
 /* view sweets ends */
-.child_div{
+/* .child_div{
     margin: 50px 50px;
 
 }
@@ -267,7 +278,57 @@ ul span:hover {
 .second_iine_card{
     display: flex;
     justify-content: space-between;
+} */
+
+.product_home_cards{
+    width:100%;
+    height: 100%;
+    padding: 3rem 6rem;
+   
 }
+
+.product_home_cards .h2{
+    width: 80%;
+    padding-bottom: 3rem;
+    font-family: inter, sans;
+}
+
+/* .cards-1{
+    display: flex;
+	justify-content: space-between;
+    border-radius:10px;
+    height: 300px;
+    width: 240px;
+    padding-bottom: 4rem;
+    gap: 5rem;
+	
+    
+} */
+
+
+/* .cards-1{
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+*/
+
+/* .card img {
+	height: 100%;
+	margin: 0.1rem;
+   transition: all 0.3s;
+}
+
+.card:hover img{
+	scale:  1.1;
+}
+
+.card:hover {
+	box-shadow: 5px 15px 25px #eeeeee;
+    
+} */
 
 
 
@@ -277,30 +338,29 @@ ul span:hover {
     height:100%;
 }
 .Restaurant-1{
-    height: 100%;
-    width:100%;
-    /* display: flex;
-    padding: 0rem 20px;
-    margin:  10px 40px;
+   
+     display: flex;
+    padding-left:3rem ;
+    margin:  3rem 3rem;
     letter-spacing: 0.6px;
-    font-weight: 400; */
+    font-weight: 400; 
     
 
 }
 
-/* .Restaurant-1 img{
-     width: 100%;
+.Restaurant-1 img{
+     width: 50%;
      height: 100%;
-     border-radius: 0.625rem;
-     margin-top: 1.25rem;
-} */
+     border-radius: 0.5rem;
+     margin-left: 2rem;
+     padding-left: 3rem;
+}
 
 .Restaurant-1 .restaurent-content{
     padding: 3em;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-   
+    gap: 0.625rem;
     letter-spacing: 0.6px;
     height: auto;
    
@@ -308,18 +368,26 @@ ul span:hover {
 }
 
 .restaurent-content button{
-    border: 2px solid red;
-    border-radius: 2px;   
-    height: 20px;
-    box-sizing: border-box;
+    border: 1px solid red;
+    border-radius: 0.7rem;
+    height: 3rem;
+    width: 10rem;
+    background-color: #fff;
+    font-size: 1rem;
+    color: red;
 
 }
 
+.restaurent-content button:hover{
+    outline: 1px solid red;
+   
+
+}
 
 .products h2{
 	text-align: center;
 	margin-bottom: 0.1rem;
-	font-size: 2rem;
+	font-size: 1.65rem;
 }
 
 
@@ -373,8 +441,57 @@ ul span:hover {
    transition: all 0.3s;
 }
 
+.product-btn{
+    border: 2px solid #d50707;
+    background-color: #d50707;
+    color: white;
+    width: 7rem;
+    /* height: 2rem; */
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    /* padding-top: 0.8rem; */
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    padding: 0.8rem;
+}
 
 
+.like-our-products-1{
+    width: 100%;
+    text-align: center;
+    padding: 1rem 6rem;
+    margin: 0rem 4rem;
+
+}
+
+h2, h3, p{
+ font-weight: 300;
+}
+
+.like-our-products-1 h2{
+   margin-bottom: 2rem;
+   font-style: normal;
+   font-weight: 300;
+
+}
+
+#order-button{
+    border: 1px solid red;
+    border-radius: 0.7rem;
+    height: 3rem;
+    width: 10rem;
+    background-color: #fff;
+    font-size: 1rem;
+    color: red;
+    margin-left: 40rem;
+    margin-bottom: 2rem;
+}
+
+#order-button:hover{
+    outline: 1px solid red;
+    
+}
 
 
 
@@ -382,6 +499,7 @@ ul span:hover {
 /* footer start */
 footer{
     width: 100%;
+    height: 80vh;
     
     
 
@@ -390,7 +508,7 @@ footer{
 .footer{
     background-color: #f3f2f2;
     overflow-x: hidden;
-    height: 60%;
+    height: 100%;
     display: flex;
     margin-top: 20px;
     padding: 20px 20px;
@@ -399,7 +517,7 @@ footer{
 
 .footer-1{
     width: 100%;
-    margin: 20px 20px;
+    margin: 1.25rem;
     padding: 2rem;
   
 }
@@ -410,7 +528,7 @@ footer{
 
 .footer-1 ul{
     list-style: none;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .footer-1 ul li{
@@ -453,6 +571,21 @@ footer{
 
 #footer-logo-content{
     text-align: left;
+}
+
+.copyright{
+    width: 100%;
+    height: 5rem;
+    background-color: #f3f2f2;
+    height: 10rem;
+
+}
+
+.copyright p{
+   margin-left: 3rem;
+   padding-top: 2rem;
+   font-size: 10px;
+
 }
 
 /* footer end */
