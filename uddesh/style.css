@@ -1,0 +1,265 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: inherit;
+}
+
+
+/*------------ main secxtion start  */
+#main-section {
+    padding: 0px 100px;
+}
+
+#main-section .home-caption h1 {
+    font-size: 40px;
+    font-weight: 400;
+    padding: 40px 0px;
+}
+
+#main-section .project-container {
+    display: flex;
+}
+
+.left-section {
+    width: 25%;
+}
+
+#accordian li {
+    list-style: none;
+    background-color: #fff;
+    padding: 15px 5px 5px 5px;
+    border-bottom: 1px solid rgb(124, 122, 122);
+    color: rgb(112, 111, 111);
+}
+
+#accordian li label {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    margin: 0%;
+}
+
+#accordian label+input[type="radio"] {
+    display: none;
+}
+
+#accordian .info {
+    padding: 5px 0px;
+    line-height: 25px;
+    overflow: hidden;
+    max-height: 0px;
+    transition: max-height 0.5s;
+}
+
+#accordian label+input[type="radio"]:checked+.info {
+    max-height: fit-content;
+}
+
+.availibility-c-box {
+    display: flex;
+}
+
+.availibility-c-box label {
+    padding-left: 15px;
+}
+
+.price-buttons input {
+    width: 45%;
+    margin: 5% 2%;
+    padding: 10px 20px;
+    border: 1px solid #8f8f8f;
+}
+
+
+.filter-c-box {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.filter-c-box label {
+    padding-left: 15px;
+}
+
+
+.right-section {
+    width: 75%;
+    padding-left: 30px;
+}
+
+.right-head {
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    padding: 10px 0px 20px 0px;
+}
+
+.right-head label {
+    margin-right: 30px;
+}
+
+.right-head select {
+    border: none;
+}
+
+#pro11 {
+    margin-left: 40px;
+}
+
+
+.product-list {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.products {
+    width: 23%;
+    margin: 0% 1% 5% 1%;
+}
+
+.products img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+.add-to-btn {
+    width: 100%;
+    padding: 12px;
+    border: 1.5px solid #f23535;
+    background-color: transparent;
+    border-radius: 5px;
+    color: #f23535;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.add-to-btn:hover {
+    border: 2px solid #f23535;
+    padding: 11px;
+
+}
+
+
+
+
+.product-box:hover {
+    text-decoration: underline;
+}
+
+#bika #RS {
+    text-decoration: none;
+}
+
+#bika {
+    color: #8f8f8f;
+    font-size: 10px;
+    margin: 10px 0;
+}
+
+.discription {
+    padding-top: 10px;
+    text-decoration: none;
+    font-weight: 400px;
+}
+
+/*--------------- main section end  */
+
+
+
+
+
+
+
+@media (max-width:1200px)  {
+    #main-section {
+        padding: 0px 80px;
+    }
+}
+
+@media (max-width:1024px)  {
+    #main-section {
+        padding: 0px 60px;
+    }
+    .products {
+        width: 30%;
+        margin: 0% 1% 5% 1%;
+    }
+
+    .left-section {
+        width: 22%;
+    }
+   
+    .right-section {
+        width: 77%;
+        padding-left: 30px;
+    }
+
+}
+
+@media (max-width:992px)  {
+   
+}
+
+@media (max-width:768px)  {
+
+    #main-section {
+        padding: 0px 20px;
+    }
+    .products {
+        width: 45%;
+        margin: 0% 1% 5% 1%;
+    }
+
+    .left-section {
+        width: 30%;
+    }
+   
+    .right-section {
+        width: 70%;
+        padding-left: 30px;
+    }
+    #main-section .home-caption h1 {
+        font-size: 30px;
+        font-weight: 400;
+        padding: 40px 0px;
+    }
+   
+}
+
+
+@media (max-width:425px)  {
+
+    #main-section .home-caption h1 {
+        font-size: 25px;
+        font-weight: 400;
+        padding: 30px 0px;
+    }
+    #main-section .project-container {
+        display: block;
+    }
+    .left-section {
+        width: 100%;
+    }
+   
+    .right-section {
+        width: 100%;
+        padding-left: 0px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:325px)  {
+    .products {
+        width: 95%;
+        margin: 0% 1% 5% 1%;
+    }
+
+}
