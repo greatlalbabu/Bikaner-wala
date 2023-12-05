@@ -10,7 +10,7 @@
 
 <body>
    <header>
-      <div class="navbar">
+      <div class="navbar" id="navbar">
          <img src="logo.png" alt="logo" width=130px height=60px class="logo-png">
          <ul id="nav" class="navbar-nav ms-auto">
             <li class="nav-item">
@@ -47,15 +47,42 @@
       </div>
       <div class="banner-content">
          <h3>Welcome to Bikanervala Club! </h3>
-         <button>Let's get Strated</button>
+         <a href="#loginPopup" class="button">Let's get Started</a>
       </div>
    </header>
    <div class="background">
       <!-- Bubbles -->
       <div class="bubble bubble-1"></div>
-      <div class="bubble bubble-2"></div>
+      <div class="bubble bubble-2"></div> 
       <div class="bubble bubble-3"></div>
    </div>
+   <!-- Login Popup Modal -->
+   <div id="loginPopup" class="modal">
+      <div class="modal-content">
+         <span class="close">&times;</span>
+         <h2>Join Now</h2><br></br>
+         <!-- Contact number input field -->
+         <label for="contactNumber">Contact Number:</label>
+         <input type="text" id="contactNumber" name="contactNumber" placeholder="Mobile no." class="form-control">
+         <a href="#loginPopup" class="button">Log in</a>
+      </div>
+   </div>
+
+   <script>
+      window.addEventListener('DOMContentLoaded', function () {
+         var modal = document.getElementById('loginPopup');
+         var closeButton = document.querySelector('.close');
+         var button = document.querySelector('.button');
+
+         button.addEventListener('click', function () {
+            modal.style.display = 'flex';
+         });
+
+         closeButton.addEventListener('click', function () {
+            modal.style.display = 'none';
+         });
+      });
+   </script>
 
    <div class="middle">
       <div class="middle-image">
@@ -64,7 +91,7 @@
             alt="Website-Banner-Welcome-to-Bikanervala-Club" id="dots-image-2" />
       </div>
 
-      <div class="middle-contet">
+      <div class="middle-content">
          <h1> <strong>We invite</strong> you to a world of exclusive benefits</h1>
          <br></br>
          <p> Join us today for instant savings, special privileges and a whole lot more!</p><br></br>
@@ -114,11 +141,10 @@
             </ul>
          </div>
       </div>
-
+      
       <!-- <div class="footer-image">
      <img src="footer-bg.svg" alt="Footer Image">
    </div> -->
-   <hr>
 
       <div class="copyright">
          <p class="copyright-text">© 2021 Loyalty Microsite. All Rights Reserved.</p>
