@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Naiya Patel</title>
@@ -10,7 +11,7 @@
 
 <body>
    <header>
-      <div class="navbar" id="navbar">
+      <div class="navbar" id="navbar" data-aos="fade-up">
          <img src="logo.png" alt="logo" width=130px height=60px class="logo-png">
          <ul id="nav" class="navbar-nav ms-auto">
             <li class="nav-item">
@@ -45,7 +46,7 @@
          </ul>
 
       </div>
-      <div class="banner-content">
+      <div class="banner-content" data-aos="flip-left">
          <h3>Welcome to Bikanervala Club! </h3>
          <a href="#loginPopup" class="button">Let's get Started</a>
       </div>
@@ -85,13 +86,13 @@
    </script>
 
    <div class="middle">
-      <div class="middle-image">
+      <div class ="middle-image" data-aos="fade-right">
          <img src="dots.svg" height="130px" width="260px" alt="dots" id="dots-image" />
-         <img src="Website-Banner-Welcome-to-Bikanervala-Club.jpeg" height="130px" width="260px"
+         <img src="Website-Banner-Welcome-to-Bikanervala-Club.jpeg" 
             alt="Website-Banner-Welcome-to-Bikanervala-Club" id="dots-image-2" />
       </div>
 
-      <div class="middle-content">
+      <div class="middle-content" data-aos="fade-left">
          <h1> <strong>We invite</strong> you to a world of exclusive benefits</h1>
          <br></br>
          <p> Join us today for instant savings, special privileges and a whole lot more!</p><br></br>
@@ -112,11 +113,12 @@
 
    <!-- footer -->
    <footer>
-      <div class="footer-content">
-         <div class="contact-info">
+      <div class="footer-content" data-aos="fade-up"
+      data-aos-duration="3000">
+         <div class="contact-info" >
             <h4>Contact Us</h4>
-            <p>For any program or account-related queries,</p>
-            <p>call the Bikanervala Club Member Services Centre</p>
+            <p>For any program or account-related queries,</p><br>
+            <p>call the Bikanervala Club Member Services Centre</p><br>
             <p> from 10:00 AM to 06:00 PM Monday to Saturday</p><br></br>
             <p>+91 8448787211</p><br></br>
             <p><a href="mailto:Loyalty.Care@Bikanervala.com">Loyalty.Care@Bikanervala.com</a></p><br></br>
@@ -145,6 +147,8 @@
       <!-- <div class="footer-image">
      <img src="footer-bg.svg" alt="Footer Image">
    </div> -->
+   <hr>
+   
 
       <div class="copyright">
          <p class="copyright-text">© 2021 Loyalty Microsite. All Rights Reserved.</p>
@@ -154,5 +158,9 @@
          </a>
       </div>
    </footer>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+      AOS.init();
+    </script>
    </body>
    </html>
