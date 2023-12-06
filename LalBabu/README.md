@@ -17,8 +17,9 @@ Overall, the project contributed to my proficiency in HTML and CSS, emphasizing 
 
 
 **first Image: navbar, hero image and footer sticky**
-![Uploading image.png…]()
 
+
+![first](https://github.com/greatlalbabu/Bikaner-wala/assets/126700948/7032d2b3-816f-4b2a-a45f-5d003dd3e99b)
 
 
 
