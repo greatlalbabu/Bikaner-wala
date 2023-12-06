@@ -16,5 +16,19 @@ Overall, the project contributed to my proficiency in HTML and CSS, emphasizing 
 
 
 
+**first Image: navbar, hero image and footer sticky**
+![Uploading image.png…]()
+
+
+
+
+
+
+
+
+
+
+
+
 
 
