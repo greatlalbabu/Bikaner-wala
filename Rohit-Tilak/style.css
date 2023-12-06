@@ -88,20 +88,27 @@ ul span:hover {
 }
 
 .sweets-container{
-    width: 85vw;
+    width: 90vw;
     margin: 0 auto;
     height: 100px
 }
 
 
 .sweets-container-child{
-    padding-top: 31px;
+   width: 90vw;
 }
 
-h1{
+.sub-child{
+    width: 90vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.h1{
     margin-left: 20px;
     font-size: 35px;
-
+    font-size: 40px;
 }
 
 .form{
@@ -192,6 +199,7 @@ span{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-left: 0rem;
 }
 .left-section label{
     margin-top: 20px;
@@ -299,16 +307,286 @@ h2{
     border: none;
 }
 
+/* background-images change */
 
 .media-1{
-    width: 10rem;
-    height: 5rem;
     background-image: url('./assests/images/kaju-katli.webp');
+    height: 198px;
+    width: 198px;
+    position: relative;
+    background-size: contain;
+    transition: all 0.6s ease-in-out;
+    background-repeat: no-repeat;
 }
 
 .media-1:hover{
-    background-image: url('./assests/images/1_1.webp');
+    background-image: url('./assests/images/bag-1.webp');
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
+
+
+.media-2{
+    background-image: url('./assests/images/motichur2.webp');
+    height: 198px;
+    width: 198px;
+    position: relative;
+    background-size: contain;
+    transition: all 0.6s ease-in-out;
+    background-repeat: no-repeat;
+}
+
+.media-2:hover{
+    background-image: url('./assests/images/bag-2.webp');
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.media-3{
+    background-image: url('./assests/images/dhubaburfi3.webp');
+    height: 198px;
+    width: 198px;
+    position: relative;
+    background-size: contain;
+    transition: all 0.6s ease-in-out;
+    background-repeat: no-repeat;
+}
+
+.media-3:hover{
+    background-image: url('./assests/images/bag-3.webp');
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.media-4{
+    background-image: url('./assests/images/moong-dal-4.webp');
+    height: 198px;
+    width: 198px;
+    position: relative;
+    background-size: contain;
+    transition: all 0.6s ease-in-out;
+    background-repeat: no-repeat;
+}
+
+.media-4:hover{
+    background-image: url('./assests/images/bag-4.webp');
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.media-5{
+    background-image: url('./assests/images/milk-cake5.webp');
+    height: 198px;
+    width: 198px;
+    position: relative;
+    background-size: contain;
+    transition: all 0.6s ease-in-out;
+    background-repeat: no-repeat;
+}
+
+.media-5:hover{
+    background-image: url('./assests/images/bag-5.webp');
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+.media-6{
+    background-image: url('./assests/images/khoya-pista6.webp');
+    height: 198px;
+    width: 198px;
+    position: relative;
+    background-size: contain;
+    transition: all 0.6s ease-in-out;
+    background-repeat: no-repeat;
+}
+
+.media-6:hover{
+    background-image: url('./assests/images/bag-6.webp');
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+.media-7{
+    background-image: url('./assests/images/kaju-roll7.webp');
+    height: 198px;
+    width: 198px;
+    position: relative;
+    background-size: contain;
+    transition: all 0.6s ease-in-out;
+    background-repeat: no-repeat;
+}
+
+.media-7:hover{
+    background-image: url('./assests/images/bag-7.webp');
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.media-8{
+    background-image: url('./assests/images/Shahi-pini8.webp');
+    height: 198px;
+    width: 198px;
+    position: relative;
+    background-size: contain;
+    transition: all 0.6s ease-in-out;
+    background-repeat: no-repeat;
+}
+
+.media-8:hover{
+    background-image: url('./assests/images/bag-8.webp');
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.media-9{
+    background-image: url('./assests/images/karachi11.webp');
+    height: 198px;
+    width: 198px;
+    position: relative;
+    background-size: contain;
+    transition: all 0.6s ease-in-out;
+    background-repeat: no-repeat;
+}
+
+.media-9:hover{
+    background-image: url('./assests/images/bag-9.webp');
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+.media-10{
+    background-image: url('./assests/images/mysore-pak9.webp');
+    height: 198px;
+    width: 198px;
+    position: relative;
+    background-size: contain;
+    transition: all 0.6s ease-in-out;
+    background-repeat: no-repeat;
+}
+
+.media-10:hover{
+    background-image: url('./assests/images/bag-10.webp');
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.media-11{
+    background-image: url('./assests/images/Sohan10.webp');
+    height: 198px;
+    width: 198px;
+    position: relative;
+    background-size: contain;
+    transition: all 0.6s ease-in-out;
+    background-repeat: no-repeat;
+}
+
+.media-11:hover{
+    background-image: url('./assests/images/bag-11.webp');
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.media-12{
+    background-image: url('./assests/images/Khoya-keser12.webp');
+    height: 198px;
+    width: 198px;
+    position: relative;
+    background-size: contain;
+    transition: all 0.6s ease-in-out;
+    background-repeat: no-repeat;
+}
+
+.media-12:hover{
+    background-image: url('./assests/images/bag-12.webp');
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+.media-13{
+    background-image: url('./assests/images/jhodpur13.webp');
+    height: 198px;
+    width: 198px;
+    position: relative;
+    background-size: contain;
+    transition: all 0.6s ease-in-out;
+    background-repeat: no-repeat;
+}
+
+.media-13:hover{
+    background-image: url('./assests/images/bag-13.webp');
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.media-14{
+    background-image: url('./assests/images/chocolate14.webp');
+    height: 198px;
+    width: 198px;
+    position: relative;
+    background-size: contain;
+    transition: all 0.6s ease-in-out;
+    background-repeat: no-repeat;
+}
+
+.media-14:hover{
+    background-image: url('./assests/images/bag-14.webp');
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.media-15{
+    background-image: url('./assests/images/khoya-burfi.webp');
+    height: 198px;
+    width: 198px;
+    position: relative;
+    background-size: contain;
+    transition: all 1s ease-in-out;
+    background-repeat: no-repeat;
+}
+
+.media-15:hover{
+    background-image: url('./assests/images/bag-15.webp');
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+
+/* bacground-image change end */
 
 /* .right-section{
     margin-left: -37px;
@@ -473,6 +751,10 @@ ul{
   height: 372px
 }
 
+.product-item-list{
+    list-style-type: none;
+}
+
 a{
     font-size: 0.9rem;
 }
@@ -565,10 +847,10 @@ h1{
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
-/* } */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+}
 
-/* .card-media:hover{
+.card-media:hover{
     transform: rotatey(180deg);
     
 } */
