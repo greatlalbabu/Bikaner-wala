@@ -36,7 +36,7 @@ body{
     display: flex;
     position: sticky;
     top:0;
-    width: 100vw;
+    width: auto;
     overflow: hidden;
     z-index:1000;
     border-bottom: 1px solid #c9c7c7;
@@ -46,7 +46,7 @@ body{
 
 
 .logo{
-    width: 10%;
+    width: 15%;
     align-items: center;
     
     margin-left: 2.375rem;
@@ -169,7 +169,7 @@ ul span:hover {
 .hero{
     margin: 0;
     padding: 0;
-    width: 100vw;
+    width: auto;
     height: 90%;
     cursor: pointer;
 }
@@ -186,7 +186,7 @@ ul span:hover {
 
 .sweets_container {
     background-color: rgb(243,243,243);
-    width: 100vw;
+    width: auto;
     padding: 0rem 1.875rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -260,7 +260,7 @@ ul span:hover {
 
 /* restaurents start */
 .Restaurants_containers{
-    width: 100%;
+    width: auto;
     height:100%;
 }
 .Restaurant-1{
@@ -269,27 +269,33 @@ ul span:hover {
     padding-left:3rem ;
     margin:  3rem 3rem;
     letter-spacing: 0.6px;
-    font-weight: 400; 
+    font-weight: 300; 
     
 
 }
 
-.Restaurant-1 img{
+.Restaurant-1> img{
      width: 50%;
      height: 100%;
-     border-radius: 0.5rem;
+     border-radius: 2%;
      margin-left: 2rem;
-     padding-left: 3rem;
+     padding-left: 4rem;
 }
 
 .Restaurant-1 .restaurent-content{
-    padding: 3em;
+    padding: 2em;
     display: flex;
     flex-direction: column;
     gap: 0.625rem;
     letter-spacing: 0.6px;
     height: auto;
    
+
+}
+
+.restaurent-content>p{
+   font-size: 1rem;
+   line-height: 1.50rem;
 
 }
 
