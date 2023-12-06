@@ -15,14 +15,6 @@ body{
     height:100%;
     overflow: hidden;
     overflow-y: auto;
-
-}
-
-@media screen and (max-width: 375px) {
-
-    
-
-    
 }
 
 
@@ -52,6 +44,7 @@ body{
     z-index:1000;
     border-bottom: 1px solid #c9c7c7;
     gap: 1rem;
+    width: 100%;
 }
 
 
@@ -59,9 +52,8 @@ body{
 .logo{
     width: 15%;
     align-items: center;
-    
     margin-left: 2.375rem;
-    padding: 0.313rem;
+    padding: 0.315rem;
 }
 
 
@@ -70,10 +62,8 @@ body{
 
 .logo > img {
        height: 4.5em;
-        margin-left: 4rem;
-        padding-bottom: 0.60rem;
-        cursor: pointer;
-        margin-top: 8px;
+       cursor: pointer;
+        margin: 0.5rem 4rem;
        
 }
 
@@ -225,6 +215,7 @@ ul span:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     height: 100%;
+    width: 100%;
    
 }
 
@@ -238,7 +229,6 @@ ul span:hover {
         margin: 1.56rem 1.56rem;
         padding: 0.62rem 1.56rem 1.56rem 4rem;
         gap: 2rem;
-        /* justify-content: space-between; */
         letter-spacing: 0.6px;
         
 }
@@ -255,8 +245,9 @@ ul span:hover {
     
 }
 
-.sweets_container_image {
+.sweets_container_image>img {
     margin-top: 1rem;
+    padding: 1rem;
     
 }
 #indian{
@@ -294,7 +285,7 @@ ul span:hover {
 
 /* restaurents start */
 .Restaurants_containers{
-    width: auto;
+    width: 100%;
     height:100%;
 }
 .Restaurant-1{
@@ -484,11 +475,9 @@ ul span:hover {
     background-color: #d50707;
     color: white;
     width: 7rem;
-    /* height: 2rem; */
     text-align: center;
     text-decoration: none;
     font-size: 1rem;
-    /* padding-top: 0.8rem; */
     margin-bottom: 1rem;
     border-radius: 4px;
     padding: 0.8rem;
@@ -569,16 +558,7 @@ footer{
     cursor: pointer;
 }
 
-/* .footer-1{
-    width: 100%;
-    margin: 1rem;
-    padding: 1rem;
-  
-}
-.footer-1> h2{
-    font-size: 16px;
-  
-} */
+
 
 .footer-1 ul{
     list-style: none;
