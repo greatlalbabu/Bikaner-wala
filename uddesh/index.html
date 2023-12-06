@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+<!---Header part-->
+<header>
+    <div class="announcement">
+       <p id="heading-text">
+           <span>Order will be dispatched within 24 Working Hours.</span>
+       </p>
+     </div>
+   </header>
+
+  <div class="navbar">
+       <!-- <div class="nav-header">       -->
+           <div class="logo">
+               <img src="https://bikanervala.com/cdn/shop/files/logo_footer_630488c3-eec9-4f24-a6f9-1aa9346c0083.png?v=1686633966&width=1100 alt="logo">
+       </div> 
+    
+
+       <!-- menu -->
+       <div class="menu">
+              <ul id="menu_first">
+               <li id="home"><span>Home</span></li>
+               <li><span><a href="../Rohit-Tilak/index.html">Fresh Sweets</a></span></li>
+               <li><span><a href="../uddesh/index.html"></a>Bikano </span>
+               <i id="chevron"class="fa-solid fa-chevron-down"></i>
+              </li>
+               
+               <li><span><a href="../Rohit-Tilak/index.html">All Products</a></span></li>
+               <li><span><a href="../Naiya-Patel/loyality-program/naiya.html">Loyalty Program</a></span></li>
+               <li><span><a href="../Ankit/Our Restudents/index.html">Restaurants</a></span></li>
+              </ul>
+              
+              <ul id="menu_second">
+               <li><span><a href="../Ajay-saran/Locate us/locate.html">Locate us</a></span></li>
+               <li><span><a href="../Ajay-saran/About-us/index.html">About us</a></span></li>
+               <li><span><a href="../Ajay-saran/#">Career</a></span></li>
+               <li><span><a href="../Ankit/Contact Us/index.html">Contact us</a></span></li>
+               
+              </ul>
+              
+              
+       </div>
+       <div class="icons">
+           <i class="fa-regular fa-user"></i>
+           <i class="fa-solid fa-bag-shopping fa-flip" style="color: #0d0d0d;" id="bag"></i>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+       </div>
+</div>
+<!--Header part end-->
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <section id="main-section">
+        <div class="home-caption">
+            <h1>Ready To Eat Food</h1>
+        </div>
+
+        <div class="right-head">
+            <label for="">Sort by:</label>
+            <select name="sort" id="sort">
+                <option value="Best selling">Best selling</option>
+                <option value="Alphabetically A-Z">Alphabetically A-Z</option>
+                <option value="Alphabetically Z-A">Alphabetically Z-A</option>
+                <option value="Price low-hight">Price low-hight</option>
+                <option value="Price hight-low">Price hight-low</option>
+                <option value="Date old-new">Date old-new</option>
+                <option value="Date new-new">Date new-new</option>
+            </select>
+            <label for="" id="pro11">11 Products</label>
+        </div>
+
+
+        <div class="project-container">
+            <div class="left-section">
+                <label id="filter">Filter:</label>
+                <hr style="margin-top: 20px;">
+
+
+                <ul id="accordian">
+                    <li>
+                        <label for="a"> Availability <img src="./free-arrow-down-icon-3101-thumb.png" alt="" width="15px" height="15px"></label>
+                        <input type="radio" name="acr" id="a" checked>
+                        <div class="info availibility">
+
+                            <form action="./index.html">
+                                <div class="availibility-c-box">
+                                    <input type="checkbox" id="avb-1" name="avb-1">
+                                    <label for="avb-1"> In stock (11)</label><br>
+                                </div>
+
+                                <div class="availibility-c-box">
+                                    <input type="checkbox" id="avb-2" name="avb-2">
+                                    <label for="avb-2">Out of stock (0)</label><br>
+                                </div>
+
+                            </form>
+
+                        </div>
+                    </li>
+                    <li>
+                        <label for="b"> Price <img src="./free-arrow-down-icon-3101-thumb.png" alt="" width="15px" height="15px"></label>
+                        <input type="radio" name="acr" id="b">
+                        <div class="info price">
+                            <p>The highest price is Rs. 250.00</p>
+                            <div class="price-buttons">
+                                <input type="number" placeholder="From">
+                                <input type="number" placeholder="TO">
+
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <label for="c"> More filters <img src="./free-arrow-down-icon-3101-thumb.png" alt="" width="15px" height="15px"></label>
+                        <input type="radio" name="acr" id="c">
+                        <div class="info more-fil">
+                            <form action="./index.html">
+                                <div class="filter-c-box">
+                                    <input type="checkbox" id="fil-er-1" name="fil-er-1">
+                                    <label for="fil-er-1"> Basmati Rice (2)</label><br>
+                                </div>
+                                <div class="filter-c-box">
+                                    <input type="checkbox" id="fil-er-2" name="fil-er-2">
+                                    <label for="fil-er-2"> Choley (1)</label><br>
+                                </div> <div class="filter-c-box">
+                                    <input type="checkbox" id="fil-er-3" name="fil-er-3">
+                                    <label for="fil-er-3"> dal (1)</label><br>
+                                </div> <div class="filter-c-box">
+                                    <input type="checkbox" id="fil-er-4" name="fil-er-4">
+                                    <label for="fil-er-4"> Dal Makhni (1)</label><br>
+                                </div> <div class="filter-c-box">
+                                    <input type="checkbox" id="fil-er-5" name="fil-er-5">
+                                    <label for="fil-er-5"> Dal Tadka (1)</label><br>
+                                </div> <div class="filter-c-box">
+                                    <input type="checkbox" id="fil-er-6" name="fil-er-6">
+                                    <label for="fil-er-6">grain (1)</label><br>
+                                </div> <div class="filter-c-box">
+                                    <input type="checkbox" id="fil-er-7" name="fil-er-7">
+                                    <label for="fil-er-7"> Jeera Basmati Rice (1)</label><br>
+                                </div>
+
+                              
+
+                            </form>
+                        </div>
+                    </li>
+
+            </div>
+
+            <div class="right-section">
+
+
+                <div class="product-list">
+                    <div class="products">
+                        <div class="product-image">
+                            <img src="https://bikanervala.com/cdn/shop/files/WhatsAppImage2023-09-29at5.56.42PM_1.jpg?v=1695991662&width=1100"
+                                alt="Pakode">
+                        </div>
+                        <div class="discription">
+                            <p id="text1"> Kadi Pakoda (300 gms, Rte, Pack of 2)</p>
+                            <p id="bika">BIKANO</p>
+                            <p id="RS">Rs. 170.00</p>
+                            <button class="add-to-btn">Add to cart</button>
+                        </div>
+                    </div>
+
+                    <div class="products">
+                        <div class="product-img">
+                            <img src="https://bikanervala.com/cdn/shop/files/WhatsAppImage2023-09-29at5.56.40PM_1.jpg?v=1695991454&width=1100"
+                                alt="Dal_Makhani">
+                        </div>
+                        <div class="discription">
+
+                            <p id="text1">Dal Makhni (300 g, Pack of 2)</p>
+                            <p id="bika">BIKANO</p>
+                            <p id="RS">Rs. 220.20</p>
+                            <button class="add-to-btn">Add to cart</button>
+                        </div>
+                    </div>
+
+                    <div class="products">
+                        <div class="product-img">
+                            <img src="https://bikanervala.com/cdn/shop/files/WhatsAppImage2023-09-29at5.56.40PM.jpg?v=1695991873&width=1100"
+                                alt="choley">
+                        </div>
+                        <div class="discription">
+
+                            <p id="text1"> Choley (300 gms, Pack of 2)</p>
+                            <p id="bika">BIKANO</p>
+                            <p id="RS">Rs. 170.00</p>
+                            <button class="add-to-btn">Add to cart</button>
+                        </div>
+                    </div>
+
+                    <div class="products">
+                        <div class="product-img">
+                            <img src="https://bikanervala.com/cdn/shop/files/WhatsAppImage2023-09-29at5.56.44PM_1.jpg?v=1695991208&width=1100"
+                                alt="Pao_Bhaji">
+                        </div>
+                        <div class="discription">
+
+                            <p id="text1"> Pao Bhaji (300 gm, Pack of 2)</p>
+                            <p id="bika">BIKANO</p>
+                            <p id="RS">Rs. 200.20</p>
+                            <button class="add-to-btn">Add to cart</button>
+                        </div>
+                    </div>
+
+                    <div class="products">
+                        <div class="product-img">
+                            <img src="https://bikanervala.com/cdn/shop/files/WhatsAppImage2023-09-29at5.56.45PM.jpg?v=1695992056&width=1100"
+                                alt="Plain_Rice">
+                        </div>
+                        <div class="discription">
+
+                            <p id="text1">Plain Basmati Rice (250 g, Pack of 2)</p>
+                            <p id="bika">BIKANO</p>
+                            <p id="RS">Rs. 180.00</p>
+                            <button class="add-to-btn">Add to cart</button>
+                        </div>
+                    </div>
+
+                    <div class="products">
+                        <div class="product-img">
+                            <img src="https://bikanervala.com/cdn/shop/files/WhatsAppImage2023-09-29at5.56.46PM_1.jpg?v=1695991333&width=1100"
+                                alt="Shahi_Paneer">
+                        </div>
+                        <div class="discription">
+
+                            <p id="text1">Shahi Paneer (300 gm, Pack of 2)</p>
+                            <p id="bika">BIKANO</p>
+                            <p id="RS">Rs. 250.00</p>
+                            <button class="add-to-btn">Add to cart</button>
+                        </div>
+                    </div>
+
+                    <div class="products">
+                        <div class="product-img">
+                            <img src="https://bikanervala.com/cdn/shop/files/WhatsAppImage2023-09-29at5.56.42PM.jpg?v=1695991550&width=1100"
+                                alt="Jeera_Rice">
+                        </div>
+                        <div class="discription">
+
+                            <p id="text1">Jeera Basmati Rice (250gms, Pack of 2)</p>
+                            <p id="bika">BIKANO</p>
+                            <p id="RS">Rs. 180.00</p>
+                            <button class="add-to-btn">Add to cart</button>
+                        </div>
+                    </div>
+
+                    <div class="products">
+                        <div class="product-img">
+                            <img src="https://bikanervala.com/cdn/shop/files/WhatsAppImage2023-09-29at5.56.45PM_1.jpg?v=1695991625&width=1100"
+                                alt="Rajma">
+                        </div>
+                        <div class="discription">
+
+                            <p id="text1">Rajma (300 gms, Pack of 2)</p>
+                            <p id="bika">BIKANO</p>
+                            <p id="RS">Rs. 170.00</p>
+                            <button class="add-to-btn">Add to cart</button>
+                        </div>
+                    </div>
+
+                    <div class="products">
+                        <div class="product-img">
+                            <img src="https://bikanervala.com/cdn/shop/files/WhatsAppImage2023-09-29at5.56.44PM.jpg?v=1695991585&width=1100"
+                                alt="Palak_Paneer">
+                        </div>
+                        <div class="discription">
+
+                            <p id="text1">Palak Paneer (300 gms, Pack of 2)</p>
+                            <p id="bika">BIKANO</p>
+                            <p id="RS">Rs. 250.00</p>
+                            <button class="add-to-btn">Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="products">
+                        <div class="product-img">
+                            <img src="https://bikanervala.com/cdn/shop/files/WhatsAppImage2023-09-29at5.56.43PM.jpg?v=1695991924&width=1100"
+                                alt="Mater_Paneer">
+                        </div>
+                        <div class="discription">
+
+                            <p id="text1">Matar Paneer (300 gms, Pack of 2)</p>
+                            <p id="bika">BIKANO</p>
+                            <p id="RS">Rs. 250.00</p>
+                            <button class="add-to-btn">Add to cart</button>
+                        </div>
+                    </div>
+
+                    <div class="products">
+                            <div class="product-img">
+                            <img src="https://bikanervala.com/cdn/shop/files/WhatsAppImage2023-09-29at5.56.41PM.jpg?v=1695991698&width=1100"
+                                alt="Dal_Tadka">
+                        </div>
+                        <div class="discription">
+
+                            <p id="text1">Dal Tadka (300 gms, Pack of 2)</p>
+                            <p id="bika">BIKANO</p>
+                            <p id="RS">Rs. 170.00</p>
+                            <button class="add-to-btn">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+<!---Footer section-->
+
+<footer>
+    <div class="footer">
+   <div class="footer-1">
+        <h2>Links</h2>
+        <ul>
+           <li>Privacy Policy</li>
+           <li>Terms and Conditions</li>
+           <li>Shipping & Payment Policy</li>
+           <li>Returns Refunds and Cancellation</li>
+        </ul>
+      </div>
+      <div class="footer-1">
+       <h2>Information</h2>
+       
+        <ul>
+           <li>Contact us</li>
+           <li>Locate us</li>
+          
+        </ul>
+
+      </div>
+      <div class="footer-1">
+       <h2>Contact Details</h2>
+         <div class="contact-details">
+       <p>A-28 Lawrence Road Industrial Area, New Delhi, Delhi 110035, INDIA</p>
+         <p>Customer Care: <a href="#">011-4700-6735</a></p>
+         <p>Mob. No: <a href="#">+91 96500 75931</a></p>
+         <p>Corporate: <a href="#">011-4700-6700</a></p>
+       </div>
+
+      </div>
+      <div class="footer-1">
+       <img src="https://bikanervala.com/cdn/shop/files/logo_footer_630488c3-eec9-4f24-a6f9-1aa9346c0083.png?v=1686633966&width=1100" alt="logo-footer" class="footer-logo">
+      <p id="footer-logo-content">Bikanervala, a name synonymous today with Indian sweets and snacks, traces its humble beginnings to 1905.
+        
+       </p>
+      </div>
+     
+
+    </div>
+    <div class="social-media">  
+        <i class="fa fa-facebook-official"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-youtube-play"></i>
+        <i class="fa fa-twitter"></i>
+    </div>
+    <hr>
+    
+    <div class="copyright">
+       <p>© 2023, Bikanervala Powered by Shopify</p>
+     </div>
+</footer>
+
+
+   <!-- Footer Fixed Order Online Start -->
+   <div class="bottom-fexed">
+       <div class="order-online">
+           <p>Order Online</p>
+       </div>
+
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+</body>
+
+</html>

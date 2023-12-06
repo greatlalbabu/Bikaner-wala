@@ -4,26 +4,38 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+
 }
+
 
 body{
     font-family: 'Inter', sans-serif;
     width: 100%;
     height:100%;
+    overflow: hidden;
+    overflow-y: auto;
 
 }
 
-html{
-    overflow-x: hidden;
+@media screen and (max-width: 375px) {
+
+    
+
+    
 }
+
+
+
+
 
 #heading-text
 {
     text-align: center;
-    padding: 10px;
-    font-size: 13px;
-    letter-spacing: 1px;
-    font-weight: 400;
+    padding: 0.625rem;
+    font-size: 0.813rem;
+    letter-spacing: 0.063rem;
+    font-weight: 500;
     color: black;
 
 
@@ -35,31 +47,31 @@ html{
     display: flex;
     position: sticky;
     top:0;
-    width: 110;
-    overflow-x: hidden;
+    width: auto;
+    overflow: hidden;
     z-index:1000;
     border-bottom: 1px solid #c9c7c7;
-    gap: 10px;
+    gap: 1rem;
 }
 
 
 
 .logo{
-    width: 10%;
+    width: 15%;
     align-items: center;
-    display: flex;
-    margin-left: 38px;
-    padding: 5px;
+    
+    margin-left: 2.375rem;
+    padding: 0.313rem;
 }
 
 
 
 
 
-.logo>img {
+.logo > img {
        height: 4.5em;
-        margin-left: 4em;
-        padding-bottom: 7px;
+        margin-left: 4rem;
+        padding-bottom: 0.60rem;
         cursor: pointer;
         margin-top: 8px;
        
@@ -67,26 +79,31 @@ html{
 
 .menu{
     margin-left: 10rem;
-    margin-top: 6px;
-    margin-bottom: 6px;
+    margin-top: 0.375rem;
+    margin-bottom: 0.375rem;
     
     
 }
 
-.menu ul {
+a{
+    text-decoration: none;
+    color: RGBA(18, 18, 18, 0.75);
+}
+
+.menu>ul  {
 list-style: none;    
 display: flex;
-gap: 30px;
+gap: 1.375rem;
 text-align: center;
-margin-top: 7px;
-font-size: 14px;
+margin-top: 0.72rem;
+font-size: 0.80rem;
 font-family: 'Inter', sans-serif;
 line-height: 2rem;
 cursor: pointer;
 
 }
 ul span:hover {
-    text-underline-offset: 3px;
+    text-underline-offset: 0.102rem;
      text-decoration-line: underline;    
     }
 
@@ -96,7 +113,7 @@ ul span:hover {
 
 }
 #home:hover {
-    text-underline-offset: 3px;
+    text-underline-offset: 0.102rem;
     }
 
 
@@ -108,7 +125,7 @@ ul span:hover {
     z-index: 1;
     width: 100%;
     border: 1px solid black;
-    border-radius : 7px;
+    border-radius : 0.385rem;
     background-color: RGB(185, 0, 0);
     height: 8%;
     color: RGB(255, 255, 255);
@@ -127,7 +144,7 @@ ul span:hover {
 
 .order-online {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0.325rem;
     font-weight: bold;
     padding: 2px;
 
@@ -135,13 +152,42 @@ ul span:hover {
     
 }
 
+@media screen and (max-width: 375px) {
+    .body{
+        width: 180vw;
+    }
+    .logo > img{
+        width: 40vw;
+        height: 4rem;
+    }
+    .menu{
+        display: none
+    }
+  
+
+    .bottom-fixed {
+        height: 1rem; /* Adjust the height to accommodate content */
+    }
+
+    .order-online {
+        margin-top: 0.5rem; /* Adjust margin for smaller screens */
+        padding: 6px; /* Adjust padding for smaller screens */
+    }
+}
+
+#chevron{
+    font-size: 0.618rem;
+}
+
+
+
 .icons {
     display: flex;
     justify-content: space-between;
     gap: 1.25rem;
     align-items: center;
     cursor: pointer;
-    width: 8rem;
+    width: 7rem;
     margin-left: 4rem;
 }
 
@@ -157,39 +203,28 @@ ul span:hover {
 .hero{
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: auto;
     height: 90%;
     cursor: pointer;
 }
 
-.hero img{
+.hero, img{
     margin: 0;
     padding: 0;
-    width: 100vw;
-    height: 90vh;
+    width: 100%;
+    height: 90%;
 }
 
 
 /* sweets */
-.sweets_arrangment{
-    background-color: #918c8c;
-    height: 90%;
-    width: 100vw;
-    overflow-x: hidden;
-    top:0;
-   
 
-}
 .sweets_container {
     background-color: rgb(243,243,243);
-    width: 100vw;
+    width: auto;
     padding: 0rem 1.875rem;
-    /* margin: 0rem 2.25rem; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* justify-content: space-between; */
-    /* gap: 20px; */
-    height: 80%;
+    height: 100%;
    
 }
 
@@ -210,10 +245,13 @@ ul span:hover {
 
 .sweets_container .sweets_container_first h4  {
     text-align: center;
+    line-height: 0.75rem;
+
     
 }
 .sweets_container .sweets_container_first p  {
     text-align: center;
+    line-height: 1.36rem;
     
 }
 
@@ -225,10 +263,6 @@ ul span:hover {
     width: 100%;
     height: 70%;
 }
-/* .sweets_container_image>img {
-    height: 78vh;
-    
-} */
 
 .sweets_container_second {
     display: flex;
@@ -237,104 +271,30 @@ ul span:hover {
     margin: 1.56rem 2rem;
     padding: 0.62rem 3rem 1rem 0.6rem;
     gap: 2rem;
-    /* justify-content: space-between; */
     letter-spacing: 0.6px;
        
 }
 
 .sweets_container_second h4 {
     text-align: center;
+    line-height: 0.75rem;
    
 }
 .sweets_container_second p {
     text-align: center;
+    line-height: 1.36rem;
     
    }
 
 
+   /* our products */
 
-
-
-
-
-
-
-
-
-
-/* view sweets ends */
-/* .child_div{
-    margin: 50px 50px;
-
-}
-
-.first_iine_card{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    height: 50%;
-}
-
-.second_iine_card{
-    display: flex;
-    justify-content: space-between;
-} */
-
-.product_home_cards{
-    width:100%;
-    height: 100%;
-    padding: 3rem 6rem;
-   
-}
-
-.product_home_cards .h2{
-    width: 80%;
-    padding-bottom: 3rem;
-    font-family: inter, sans;
-}
-
-/* .cards-1{
-    display: flex;
-	justify-content: space-between;
-    border-radius:10px;
-    height: 300px;
-    width: 240px;
-    padding-bottom: 4rem;
-    gap: 5rem;
-	
-    
-} */
-
-
-/* .cards-1{
-    display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-wrap: wrap;
-}
-
-*/
-
-/* .card img {
-	height: 100%;
-	margin: 0.1rem;
-   transition: all 0.3s;
-}
-
-.card:hover img{
-	scale:  1.1;
-}
-
-.card:hover {
-	box-shadow: 5px 15px 25px #eeeeee;
-    
-} */
 
 
 
 /* restaurents start */
 .Restaurants_containers{
-    width: 100%;
+    width: auto;
     height:100%;
 }
 .Restaurant-1{
@@ -343,27 +303,33 @@ ul span:hover {
     padding-left:3rem ;
     margin:  3rem 3rem;
     letter-spacing: 0.6px;
-    font-weight: 400; 
+    font-weight: 300; 
     
 
 }
 
-.Restaurant-1 img{
+.Restaurant-1> img{
      width: 50%;
      height: 100%;
-     border-radius: 0.5rem;
+     border-radius: 2%;
      margin-left: 2rem;
-     padding-left: 3rem;
+     padding-left: 4rem;
 }
 
 .Restaurant-1 .restaurent-content{
-    padding: 3em;
+    padding: 2em;
     display: flex;
     flex-direction: column;
     gap: 0.625rem;
     letter-spacing: 0.6px;
     height: auto;
    
+
+}
+
+.restaurent-content>p{
+   font-size: 1rem;
+   line-height: 1.50rem;
 
 }
 
@@ -384,10 +350,11 @@ ul span:hover {
 
 }
 
-.products h2{
+.products> h2{
 	text-align: center;
 	margin-bottom: 0.1rem;
-	font-size: 1.65rem;
+    font-size: 1.65rem;
+
 }
 
 
@@ -398,13 +365,13 @@ ul span:hover {
 	flex-wrap: wrap;
 }
 
-.product{
+.product-card{
 	overflow: hidden;
 	background: #ffffff;
 	color: #21201e;
 	text-align: center;
-	width: 300px;
-	height: 300px;
+	width: 18.75rem;
+	height: 18.75rem;
 	padding: 1rem;
 	display: flex;
 	flex-direction: column;
@@ -412,18 +379,88 @@ ul span:hover {
 	justify-content: center;
 	border-radius: 1.2rem;
 	margin: 1rem;
+    border: 1px solid red;
+}
+.product-card, .product-title{
+	font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.product-card>img {
+	border-radius: 5%;
+   
+}
+
+.product-card:hover img{
+	scale:  1.1;
+}
+
+.product-card:hover {
+	box-shadow: 5px 15px 25px #aa7070;
+    
+}
+
+.product-card .product-title:hover {
+	box-shadow: 5px 15px 25px #eeeeee;
+    text-decoration: underline;
+    
+}
+
+
+
+.product-card img {
+	height: 13.75rem;
+	margin: 0.1rem;
+   transition: all 0.3s;
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.product{
+	overflow: hidden;
+	background: #ffffff;
+	color: #21201e;
+	text-align: center;
+	width: 18.75rem;
+	height: 18.75rem;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 1.2rem;
+	margin: 1rem;
+    border: 1px solid red;
 }
 .product .product-title, .product .product-price{
-	font-size: 13px;
-    margin-top: 5px;
+	font-size: 1rem;
+    margin-top: 1rem;
 }
+
+
 
 .product:hover img{
 	scale:  1.1;
 }
 
 .product:hover {
-	box-shadow: 5px 15px 25px #eeeeee;
+	box-shadow: 5px 15px 25px #ec7979;
     
 }
 
@@ -436,9 +473,10 @@ ul span:hover {
 
 
 .product img {
-	height: 230px;
+	height: 220px;
 	margin: 0.1rem;
    transition: all 0.3s;
+   
 }
 
 .product-btn{
@@ -458,7 +496,6 @@ ul span:hover {
 
 
 .like-our-products-1{
-    width: 100%;
     text-align: center;
     padding: 1rem 6rem;
     margin: 0rem 4rem;
@@ -469,10 +506,10 @@ h2, h3, p{
  font-weight: 300;
 }
 
-.like-our-products-1 h2{
+.like-our-products-1> h2{
    margin-bottom: 2rem;
    font-style: normal;
-   font-weight: 300;
+   font-weight: 400;
 
 }
 
@@ -484,8 +521,9 @@ h2, h3, p{
     background-color: #fff;
     font-size: 1rem;
     color: red;
-    margin-left: 40rem;
+    margin-left: 27rem;
     margin-bottom: 2rem;
+    
 }
 
 #order-button:hover{
@@ -497,12 +535,27 @@ h2, h3, p{
 
 
 /* footer start */
+.footer-1{
+    width: 100%;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 16px;
+    line-height: 28.8px;
+    letter-spacing: 0.6px;
+     font-weight: 400;
+  
+}
+.footer-1> h2{
+    font-size: 18px;
+    line-height: 23.4px;
+    letter-spacing: 0.6px;
+     font-weight: 400;
+  
+}
+
 footer{
     width: 100%;
-    height: 80vh;
-    
-    
-
+    height: 80vh;  
 }
 
 .footer{
@@ -510,21 +563,22 @@ footer{
     overflow-x: hidden;
     height: 100%;
     display: flex;
-    margin-top: 20px;
-    padding: 20px 20px;
+    /* margin-top: 20px; */
+    padding: 1.25rem;
     width: 100%;
+    cursor: pointer;
 }
 
-.footer-1{
+/* .footer-1{
     width: 100%;
-    margin: 1.25rem;
-    padding: 2rem;
+    margin: 1rem;
+    padding: 1rem;
   
 }
-.footer-1 h2{
+.footer-1> h2{
     font-size: 16px;
   
-}
+} */
 
 .footer-1 ul{
     list-style: none;
@@ -543,15 +597,22 @@ footer{
 .contact-details{
     margin-top: 10px;
     margin-bottom: 10px;
-    
+
 }
 
-.contact-details p{
+.contact-details> p{
     font-size: 14px;
+    line-height: 2rem;
     
 }
 
-.footer-1 p{
+.contact-details a:hover{
+    text-decoration: underline;
+    
+}
+
+
+.footer-1> p{
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -563,25 +624,35 @@ footer{
 }
 
 
-.footer-1 .footer-logo{
-    height: 80px;
-    margin-left: -10px;
-     
-}
+
 
 #footer-logo-content{
     text-align: left;
 }
+.social-media{
+    background-color: #f3f2f2;
+    text-align: center;
+    padding: 50px;
+    margin-top: -200px;
+}
+.social-media i{
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.social-media>a{
+    color: black;
+}
 
 .copyright{
     width: 100%;
-    height: 5rem;
     background-color: #f3f2f2;
     height: 10rem;
 
 }
 
-.copyright p{
+.copyright >p{
    margin-left: 3rem;
    padding-top: 2rem;
    font-size: 10px;
@@ -590,5 +661,8 @@ footer{
 
 /* footer end */
 
+.video{
+    width:100%;
+}
 
 
