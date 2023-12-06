@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
 
 .contactus1{
 width: 100%;
@@ -15,3 +18,233 @@ margin: 100px 100px 0px 300px;
     padding: 10px;
 
 }
+
+
+
+
+
+
+
+
+#heading-text
+{
+    text-align: center;
+    padding: 10px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: black;
+
+
+}
+.navbar{
+    height: 6.375rem;
+    background-color: #f3f2f2;
+    color: RGBA(18, 18, 18, .62);
+    display: flex;
+    position: sticky;
+    top:0;
+    width: 110;
+    overflow-x: hidden;
+    z-index:1000;
+    border-bottom: 1px solid #c9c7c7;
+    gap: 10px;
+}
+
+
+
+.logo{
+    width: 10%;
+    align-items: center;
+    display: flex;
+    margin-left: 38px;
+    padding: 5px;
+}
+
+
+
+
+
+.logo>img {
+       height: 4.5em;
+        margin-left: 4em;
+        padding-bottom: 7px;
+        cursor: pointer;
+        margin-top: 8px;
+       
+}
+
+.menu{
+    margin-left: 10rem;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    
+    
+}
+
+.menu ul {
+list-style: none;    
+display: flex;
+gap: 30px;
+text-align: center;
+margin-top: 7px;
+font-size: 14px;
+font-family: 'Inter', sans-serif;
+line-height: 2rem;
+cursor: pointer;
+
+}
+ul span:hover {
+    text-underline-offset: 3px;
+     text-decoration-line: underline;    
+    }
+
+
+#home{
+     text-decoration-line: underline;    
+
+}
+#home:hover {
+    text-underline-offset: 3px;
+    }
+
+
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.25rem;
+    align-items: center;
+    cursor: pointer;
+    width: 8rem;
+    margin-left: 4rem;
+}
+
+.fa-regular:hover{
+    font-size: 1.25rem;
+}
+
+.fa-solid:hover{
+    font-size: 1.25rem;
+}
+
+
+
+
+/*---footer section start---*/
+footer{
+    width: 100%;
+    height: 80vh;
+    
+    
+
+}
+
+.footer{
+    background-color: #f3f2f2;
+    overflow-x: hidden;
+    height: 100%;
+    display: flex;
+    /* margin-top: 20px; */
+    padding: 1.25rem;
+    width: 100%;
+    cursor: pointer;
+    color: #121212BF;
+}
+
+
+
+.footer-1 ul{
+    list-style: none;
+
+}
+
+.footer-1 ul li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-1 ul li:hover{
+    text-decoration: underline;
+}
+  
+.contact-details{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.contact-details> p{
+    font-size: 14px;
+    line-height: 2rem;
+    
+}
+
+.contact-details a:hover{
+    text-decoration: underline;
+    
+}
+
+
+.footer-1> p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-1 .footer-logo{
+    height: 80px;
+    margin-left: -10px;
+     
+}
+
+
+
+
+#footer-logo-content{
+    text-align: left;
+}
+
+.copyright{
+    width: 100%;
+    background-color: #f3f2f2;
+    height: 10rem;
+
+}
+
+.copyright >p{
+   margin-left: 3rem;
+   padding-top: 2rem;
+   font-size: 14px;
+    color: #121212BF;
+    margin-bottom: 0;
+}
+
+.social-media{
+    background-color: #f3f2f2;
+    text-align: center;
+    padding: 50px;
+    margin-top: -200px;
+}
+.social-media i{
+    padding: 15px;
+    font-size: 20px;
+}
+.footer-1> h2{
+    font-size: 18px;
+    line-height: 23.4px;
+    letter-spacing: 0.6px;
+     font-weight: 400;
+  
+}
+.footer-1{
+    width: 100%;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 16px;
+    line-height: 28.8px;
+    letter-spacing: 0.6px;
+     font-weight: 400;
+  
+}
+
+/*--footer section end*/
