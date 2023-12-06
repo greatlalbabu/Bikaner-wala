@@ -591,6 +591,10 @@ footer{
 
 /* footer end */
 
+.video{
+    width:auto;
+}
+
 @media screen and (max-width: 750px) {
   
 }
