@@ -23,7 +23,7 @@ body{
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
-  
+  position: sticky;
 }
 
 
@@ -145,13 +145,13 @@ position: relative;
 margin-top: 120px;
 }
 
-.middle-image #dots-image{
+/* .middle-image #dots-image{
 position: absolute;
 height: max-content;
 margin-left: 40%;
 top: 100px;
 
-}
+} */
 
 .middle-image #dots-image-2 {
 position: absolute;
@@ -318,5 +318,88 @@ background-size: 200%;
   align-items: center;
   justify-content: center;
   top: 2px
+}
+
+/* Your existing CSS code */
+
+/* Media queries for responsive design */
+
+/* Tablets and smaller devices */
+@media screen and (max-width: 768px) {
+body {
+    /* Adjust body styles for smaller screens */
+    height: auto; /* Reset height for responsiveness */
+    background-size: contain;
+    padding: 20px;
+}
+
+.navbar {
+    /* Adjust navbar styles for smaller screens */
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.navbar img {
+    /* Adjust logo/image styles for smaller screens */
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
+.navbar ul {
+    /* Adjust navigation list styles for smaller screens */ /* Hide the nav items by default */
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.navbar ul.active {
+    /* Show the nav items when active */
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar ul a {
+    /* Adjust individual nav item styles for smaller screens */
+    margin: 5px ;
+}
+
+.button {
+    /* Adjust button styles for smaller screens */
+    margin-left: 100px;
+    width: 50%;
+    text-align: center;
+}
+
+.middle {
+    /* Adjust middle section styles for smaller screens */
+    flex-direction: column;
+    gap: 30px;
+    margin-right: 0;
+}
+
+.middle-content {
+    /* Adjust middle content styles for smaller screens */
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.middle-image {
+    /* Adjust middle image styles for smaller screens */
+    margin-top: 20px;
+}
+
+.middle-image #dots-image-2 {
+    /* Adjust image styles for smaller screens */
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+
+/* Add more specific responsive styles as needed */
 }
 
