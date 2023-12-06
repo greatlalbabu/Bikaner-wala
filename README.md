@@ -1,17 +1,27 @@
 # Bikanerwal.com Clone Project - Read Me
 
 Project Name: Bikaner Wala Clone
+
 Original Url: https://bikanervala.com/
+
 Repo: https://github.com/greatlalbabu/Bikaner-wala
+
 Hosted Link: https://greatlalbabu.github.io/Bikaner-wala/LalBabu/
 
 **Team Members**
+
 Mentor: Lokesh katariya
+
 Lalbabu Prasad(captain)
+
 Ankit Panday
+
 Naiya Patel
+
 Uddesh Pujari
+
 Rohit Tilak
+
 Ajay Saran
 
 ![first](https://github.com/greatlalbabu/Bikaner-wala/assets/126700948/fba92faf-10d5-44db-9e66-1435c175deb0)
