@@ -5,6 +5,15 @@ Original Url: https://bikanervala.com/
 Repo: https://github.com/greatlalbabu/Bikaner-wala
 Hosted Link: https://greatlalbabu.github.io/Bikaner-wala/LalBabu/
 
+**Team Members**
+Mentor: Lokesh katariya
+Lalbabu Prasad(captain)
+Ankit Panday
+Naiya Patel
+Uddesh Pujari
+Rohit Tilak
+Ajay Saran
+
 ![first](https://github.com/greatlalbabu/Bikaner-wala/assets/126700948/fba92faf-10d5-44db-9e66-1435c175deb0)
 
 
@@ -20,7 +29,7 @@ The Bikanerwala.com clone was developed using only HTML and CSS. We intentionall
 Throughout the project, we encountered challenges that pushed us to grow. Personally, I found animation and responsive design to be areas where I needed improvement. Navigating these aspects proved to be a learning curve, and the team collaborated to address and overcome these challenges.
 
 **Collaboration and Mentorship**
-Working with a diverse team of professionals, we learned the importance of effective communication and collaboration. The mentorship provided by our captain and guidance from our mentor played a crucial role in steering the project in the right direction. The commitment of the team, despite our time constraints, demonstrated the strength of our collaboration.
+Working with a diverse team of professionals, we learned the importance of effective communication and collaboration. The mentorship provided by our institute geekster and guidance from our mentor(**Lokesh katariya**) played a crucial role in steering the project in the right direction. The commitment of the team, despite our time constraints, demonstrated the strength of our collaboration.
 
 **Future Considerations**
 As we reflect on our project, we recognize the potential for further improvement. While the current clone is a testament to our collective efforts, we believe that integrating animations and responsive design in future projects will significantly enhance the user interface and experience.
