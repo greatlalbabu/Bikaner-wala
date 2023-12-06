@@ -538,6 +538,46 @@ footer {
         font-weight: 400;
         padding: 40px 0px;
     }
+    .logo img {
+        width: 80px;
+        height: auto;
+        margin-left: auto;
+        margin-left: -20px;
+    }
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .social-media{
+        position: fixed;
+    }
+    .footer-1 .footer-logo{
+        width: 100px;
+        height: auto;
+        margin-left: 35%;
+    }
+    .footer-1{
+        padding: 0;
+    }
+    .menu {
+        margin-left: 0;
+        display: flex;
+        font-size: 10px;
+        margin-top: -15px;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0px;
+        flex-wrap: nowrap;
+        align-content: flex-start;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        gap: 0;
+    }
 
 }
 
@@ -574,6 +614,70 @@ footer {
 
     #pro11 {
         margin: 0;
+    }
+    #heading-text {
+        font-size: 10px;
+    }
+
+    .logo img {
+        width: 40px;
+        height: auto;
+        margin-left: auto;
+        margin-left: -20px;
+    }
+
+    .menu {
+        margin-left: auto;
+        display: flex;
+        font-size: 10px;
+        margin-top: -15px;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0px;
+        flex-wrap: nowrap;
+        align-content: flex-start;
+        align-items: center;
+        justify-content: flex-end;
+        height: auto;
+        gap: 0;
+    }
+
+    .footer {
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        overflow: scroll;
+        width: 100%;
+        height: min-content;
+    }
+
+    .footer-1 .footer-logo {
+        width: 100px;
+        height: auto;
+        margin-left: 25%;
+        margin-top: -250px;
+    }
+
+    .social-media {
+        position: fixed;
+        width: auto;
+    }
+    .footer-1{
+        font-size: 10px;
+        line-height: 15px;
+        padding: 0;
+    }
+    .contact-details p{
+        font-size: 10px;
+    }
+    .footer-1 h2{
+        font-size: 14px;
     }
 
     /*---heder footer---*/
