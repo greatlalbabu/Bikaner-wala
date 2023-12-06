@@ -26,6 +26,7 @@ background-image: url(header-image.jpeg);
 position: sticky;
 } */
 
+
 .navbar{
   display: flex;
   justify-content: space-between;
@@ -127,13 +128,16 @@ margin-bottom: 50px;
 
 .middle{
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 200px;
-  margin-right: 100px;
-  margin-top: 10px;
+  align-items: center;
+  justify-content: space-around;
+  /* gap: 200px; */
+  /* margin-right: 100px; */
+  margin-top: 3rem;
   width: 100%;
-  height: auto;
+  height: 25rem;
+  gap: 2rem;
+
+  
   
 }
 
@@ -146,17 +150,28 @@ justify-content: space-between;
 } */
 
 .middle-content {
-padding-right: 80px;
-margin-top: 90px; /* Adjust as needed for spacing */
-margin-left: 50px;
+/* padding-right: 80px;
+margin-top: 90px; Adjust as needed for spacing */
+/* margin-left: 50px; */
+width: 40%;
+display: flex;
+flex-direction: column;
+/* justify-content: center; */
+height: 100%;
+align-items: flex-start;
+justify-content: flex-start;
+padding-top: 2rem;
 }
 
 
 .middle-image {
-height: 120px;
-width: 40%;
-position: relative;
-margin-top: 120px;
+height: 100%;
+width: 50%;
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+/* position: relative; */
+/* margin-top: 120px; */
 }
 
 /* .middle-image #dots-image{
@@ -168,15 +183,15 @@ top: 100px;
 } */
 
 .middle-image #dots-image-2 {
-position: absolute;
+/* position: absolute;
 top: 0px;
 right: 0px;
-margin-block-end: 50%;
-height: 260%; 
-width: 120%;
+margin-block-end: 50%; */
+height: 100%; 
+width: 100%;
 border-radius: 10px;
-padding-left: 30%;
-margin-bottom: 70px;
+/* padding-left: 30%; */
+/* margin-bottom: 70px; */
 }
 
 
@@ -275,7 +290,7 @@ color: #fff !important;
 hr{
 border: 1px solid #6A6972;
 border-bottom: 0.5rem; 
-margin-left: 5rem;
+/* margin-left: 5rem; */
 width: 90%;
 
 
@@ -342,19 +357,37 @@ background-size: 200%;
 
 @media  screen and (max-width: 375px) {
 
-
-
 .navbar ul {
   display: none;
 
 }
 
-.middle{
-  margin-right: 0;
+.button{
+  text-align: center;
+  margin-left: 90px;
 }
 
-.middle-image #dots-image-2{
-  width: 40%;
+.middle{
+  height: auto;
+flex-direction: column;
+}
+
+.middle-content{
+  margin-left: 0;
+  padding-right: 0;
+  width: 95%;
+}
+
+
+.middle-image{
+  width: 95%;
+}
+hr{
+  margin-left: 0;
+}
+
+footer{
+  height: auto;
 }
 }
 
@@ -364,4 +397,5 @@ color: #0f0 !important;
 outline: solid #f00 1px !important;
 border: solid #f00 1px !important;
 } */
+
 
