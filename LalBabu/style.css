@@ -153,13 +153,25 @@ ul span:hover {
 }
 
 @media screen and (max-width: 375px) {
+    .body{
+        width: 180vw;
+    }
+    .logo > img{
+        width: 40vw;
+        height: 4rem;
+    }
+    .menu{
+        display: none
+    }
+  
+
     .bottom-fixed {
-        height: auto; /* Adjust the height to accommodate content */
+        height: 1rem; /* Adjust the height to accommodate content */
     }
 
     .order-online {
         margin-top: 0.5rem; /* Adjust margin for smaller screens */
-        padding: 4px; /* Adjust padding for smaller screens */
+        padding: 6px; /* Adjust padding for smaller screens */
     }
 }
 
@@ -617,6 +629,21 @@ footer{
 #footer-logo-content{
     text-align: left;
 }
+.social-media{
+    background-color: #f3f2f2;
+    text-align: center;
+    padding: 50px;
+    margin-top: -200px;
+}
+.social-media i{
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.social-media>a{
+    color: black;
+}
 
 .copyright{
     width: 100%;
@@ -635,7 +662,7 @@ footer{
 /* footer end */
 
 .video{
-    width:auto;
+    width:100%;
 }
 
 
