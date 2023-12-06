@@ -21,6 +21,32 @@ Overall, the project contributed to my proficiency in HTML and CSS, emphasizing 
 
 ![first](https://github.com/greatlalbabu/Bikaner-wala/assets/126700948/7032d2b3-816f-4b2a-a45f-5d003dd3e99b)
 
+**Second Image: sweet section dived in three div, image and two content**
+
+
+![second](https://github.com/greatlalbabu/Bikaner-wala/assets/126700948/4327c854-fb88-4d72-9b09-4b7332e50e2e)
+
+**Third Image: this image for two parts one for the our products and same logic for second conatainer best selling proucts**
+
+
+![third](https://github.com/greatlalbabu/Bikaner-wala/assets/126700948/8ac343bc-62d9-4ad5-8a88-7676393481c1)
+
+**four** Side By Side image and text
+![image](https://github.com/greatlalbabu/Bikaner-wala/assets/126700948/e79c40ef-3e24-45ab-ad7d-bf26e334546c)
+
+**fifth** one container for text and second for video ifreame(video tage used)
+
+![fifth](https://github.com/greatlalbabu/Bikaner-wala/assets/126700948/096a10dd-078f-448e-8cf6-fae147c5808f)
+
+
+**sixth** footer
+
+
+
+![footer](https://github.com/greatlalbabu/Bikaner-wala/assets/126700948/291f0418-d366-4637-8e3e-b3a3e6ec8270)
+
+
+
 
 
 
