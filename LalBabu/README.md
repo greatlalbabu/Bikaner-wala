@@ -2,7 +2,7 @@ Hosted Link: https://greatlalbabu.github.io/Bikaner-wala/LalBabu/
 Main Hosted Link: https://greatlalbabu.github.io/Bikaner-wala/
 
 Tags Used:
-In the Bikanerwala project, I primarily utilized HTML tags such as <header>, <footer>, and <div> for structuring the content. These tags helped organize the layout and sections of the webpage, providing a semantic structure to the document.
+In the Bikanerwala project, I primarily utilized HTML tags such as **<header>**, **<footer>**, and **<div>**for structuring the content. These tags helped organize the layout and sections of the webpage, providing a semantic structure to the document.
 
 External Packages:
 I did not use any external packages like Tailwind CSS for styling during the Bikanerwala project. Instead, I relied on the fundamental combination of HTML and CSS to create the desired layout and appearance. For icons and fonts, I incorporated Font Awesome using its CDN and imported Google Fonts.
