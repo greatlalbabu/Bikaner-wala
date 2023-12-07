@@ -14,7 +14,7 @@ Mentor: Lokesh katariya
 
 Lalbabu Prasad(captain)
 
-Ankit Panday
+Ankit
 
 Naiya Patel
 
