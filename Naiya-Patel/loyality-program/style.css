@@ -355,7 +355,7 @@ background-size: 200%;
 /* Media queries for responsive design */
 
 
-@media  screen and (max-width: 375px) {
+@media  screen and (max-width: 426px) {
 
 .navbar ul {
   display: none;
@@ -397,5 +397,92 @@ color: #0f0 !important;
 outline: solid #f00 1px !important;
 border: solid #f00 1px !important;
 } */
+
+
+
+
+@media  screen and (max-width: 1024px) {
+
+
+
+.button{
+  text-align: center;
+  margin-right: 40px;
+}
+
+.middle{
+  height: auto;
+flex-direction: column;
+}
+
+.middle-content{
+  margin-left: 0;
+  padding-right: 0;
+  width: 95%;
+}
+
+
+.middle-image{
+  width: 95%;
+}
+hr{
+  margin-left: 0;
+}
+
+footer{
+  height: auto;
+}
+}
+
+/* html{
+background: #000 !important;
+color: #0f0 !important;
+outline: solid #f00 1px !important;
+border: solid #f00 1px !important;
+} */
+
+@media  screen and (max-width: 768px) {
+
+.navbar ul {
+  display: none;
+
+}
+
+.button{
+  text-align: center;
+  margin-right: 40px;
+}
+
+.middle{
+  height: auto;
+flex-direction: column;
+}
+
+.middle-content{
+  margin-left: 0;
+  padding-right: 0;
+  width: 95%;
+}
+
+
+.middle-image{
+  width: 95%;
+}
+hr{
+  margin-left: 0;
+}
+
+footer{
+  height: auto;
+}
+}
+
+/* html{
+background: #000 !important;
+color: #0f0 !important;
+outline: solid #f00 1px !important;
+border: solid #f00 1px !important;
+} */
+
 
 
