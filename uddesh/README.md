@@ -7,6 +7,7 @@
   -I have done the "ready to eat food page"
 
 **4. Your learning from this project**
+
 **HTML Structure:**
 -Ensure proper HTML document structure with <html>, <head>, and <body> elements.
 -Use semantic HTML elements to enhance the structure and meaning of your content.
