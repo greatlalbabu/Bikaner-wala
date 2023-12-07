@@ -103,8 +103,13 @@ line-height: 2rem;
 cursor: pointer;
 
 }
+a{
+    text-decoration: none;
+    color: RGBA(18, 18, 18, 0.75);
+}
+
 ul span:hover {
-    text-underline-offset: 3px;
+    text-underline-offset: 0.102rem;
      text-decoration-line: underline;    
     }
 
