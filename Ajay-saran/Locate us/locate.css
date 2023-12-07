@@ -234,6 +234,7 @@ footer{
     line-height: 23.4px;
     letter-spacing: 0.6px;
      font-weight: 400;
+     
   
 }
 .footer-1{
@@ -248,3 +249,11 @@ footer{
 }
 
 /*--footer section end*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter (woff2)',
+    sans-serif;
+}
