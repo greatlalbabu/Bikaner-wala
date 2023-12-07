@@ -8,8 +8,7 @@
 **4. Your learning from this project**
 **HTML Structure:**
 -Ensure proper HTML document structure with <html>, <head>, and <body> elements.
--Use semantic HTML elements to enhance the structure and meaning of your content (e.g., <header>, <nav>, <section>, 
- <article>, <footer>).
+-Use semantic HTML elements to enhance the structure and meaning of your content.
 
 **CSS Styling:**
 -Apply styles using external stylesheets (preferred for maintenance) or internal styles within the <style> tag.
