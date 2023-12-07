@@ -5,6 +5,7 @@
 **3. Proper screenshots of different sections you made**
   -![image](https://github.com/greatlalbabu/Bikaner-wala/assets/57435578/b5121ce7-d6d4-40ea-a977-3b2275d5a599)
   -I have done the "ready to eat food page"
+
 **4. Your learning from this project**
 **HTML Structure:**
 -Ensure proper HTML document structure with <html>, <head>, and <body> elements.
