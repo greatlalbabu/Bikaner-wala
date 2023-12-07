@@ -1,6 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
 
+
+
+
+
+@media screen and (max-width: 375px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    
+    }
+    .body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+   
+    .logo img {
+        width: 80px;
+        height: auto;
+        margin-left: auto;
+        margin-left: -20px;
+    }
+   
+    .menu {
+        display: none;
+    }
+
+   
+
+    .navbar {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        flex-wrap: nowrap;
+        align-content: flex-start;
+        align-items: center;
+        justify-content: center;
+       
+    }
+
+
+    .bottom-fexed {
+
+        position: fixed;
+        bottom : 0;
+        z-index: 2;
+        width: 100%;
+        border: 1px solid black;
+        border-radius : 0.385rem;
+        background-color: RGB(185, 0, 0);
+        height: 3%;
+        color: RGB(255, 255, 255);
+        overflow:hidden;
+        cursor: pointer;
+        text-align: center;
+    
+    
+    }
+    
+
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -87,16 +149,20 @@ display: flex;
 gap: 1.375rem;
 text-align: center;
 margin-top: 0.72rem;
-font-size: 0.80rem;
+font-size: 0.90rem;
 font-family: 'Inter', sans-serif;
 line-height: 2rem;
 cursor: pointer;
 
 }
 ul span:hover {
-    text-underline-offset: 0.102rem;
+    /* text-underline-offset: 0.102rem; */
      text-decoration-line: underline;    
+     font-size: 0.90rem;
+     
     }
+
+
 
 
 #home{
@@ -629,32 +695,19 @@ footer{
 }
 
 
-@media screen and (max-width: 375px) {
-    body{
-        width: 100%;
-        height: 100%;
-        align-items: center;
-    
-        
-    }
 
-    img{
-        width: 100%;
-        height: 100%;
-        margin: 0;
-    }
+   
+
+
+@media screen and (max-width: 375px) {
+
+   
     .video{
         width:100%;
         
     }
 
-  *{
-    margin: 0;
-    padding-left: 0;
-    box-sizing: border-box;
-    
-    
-  }
+
   
  .sweets_container, .sweets_container_first .sweets_container_image .sweets_container_second {
    margin: 0;
@@ -667,27 +720,7 @@ footer{
  
  }
 
- .navbar{
-    width: 133%
-    
-    
-    
- }
-
- p{
-    font-size: 1rem;
- }
-
- .icons{
-    margin-left: 10rem;
-    font-size: 1rem;
-    padding: 1rem;
- }
-
- .menu{
-    display: none;
-    
- }
+ 
 
 .hero{
     width: 132%;
@@ -766,9 +799,7 @@ footer{
 
 }
 
-.logo>img{
-    width: 10rem;
-}
+
 
 .footer{
     max-height: 100%;
@@ -779,3 +810,214 @@ footer{
 }
 }
 
+
+
+ /* screen 1024 px */
+
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .logo{
+        margin-left: -5px;
+    }
+    .menu>ul  {
+        list-style: none;    
+        display: flex;
+        gap: 1rem;
+        text-align: center;
+        margin-top: 0.72em;
+        font-size: 0.80em;
+        font-family: 'Inter', sans-serif;
+        line-height: 2em;
+        cursor: pointer;
+        
+    }
+
+    .icons {
+        display: flex;
+        justify-content: space-between;
+        gap: 1.25em;
+        align-items: center;
+        cursor: pointer;
+        width: 7em;
+        margin-left: 3em;
+    }
+
+    .h1{
+        margin-left: 0em;
+        font-size: 2.188em;
+        font-size: 40px;
+    }
+
+    .footer{
+        background-color: #f3f2f2;
+        overflow-x: hidden;
+        height: 100%;
+        display: flex;
+        /* margin-top: 20px; */
+        padding: 1em;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    .contact-details{
+        margin-top: 0.625em;
+        margin-bottom: 0.625em;
+    
+    }
+    
+    .contact-details> p{
+        font-size: 0.875em;
+        line-height: 2em;
+        
+}
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+
+    .navbar .fa-bars{
+        display: initial;
+        font-size: 2rem;
+        margin: 30px 0 0 30px; 
+    }
+    .logo img{
+        display: flex;
+        margin-left: 170px;
+        align-items: center;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .icons{
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 400px;
+    }
+    .filter-list-container{
+        margin-right: 30px;
+    }
+
+    footer{
+        width: 100%;
+        height: 80%;  
+        overflow-x: hidden;
+    }
+
+    
+
+
+    .footer-1{
+        width: 80%;
+        margin: 0em;
+        padding: 1em;
+        font-size: 16px;
+        line-height: 28.8px;
+        letter-spacing: 0.6px;
+         font-weight: 400;
+    }
+    
+    .contact-details{
+        margin-top: 0em;
+        margin-bottom: 0.625em;
+    
+    }
+    
+    .contact-details> p{
+        font-size: 0.7em;
+        line-height: 2em;
+        
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 425px)  {
+    .navbar {
+        display: initial;
+        font-size: 2rem;
+        margin: 30px 0 0 30px; 
+        display: flex;
+        justify-content: flex-start;
+    }
+
+   
+
+    .logo{
+        width: 15%;
+        align-items: center;
+        margin-left: -25px;
+        padding: 0.315em;
+    }
+    
+    .logo > img {
+           height: 4.5em;
+           cursor: pointer;
+            margin: 0.5em 4em;
+    }
+    
+
+    .icons {
+        display: flex;
+        justify-content: space-between;
+       gap: 1.25em;
+        align-items: center;
+        cursor: pointer;
+        width: 6em;
+        overflow: hidden;
+        margin-left: 200px;
+    }
+    
+    .fa-regular:hover{
+        font-size: 1.25em;
+    }
+    
+    .fa-solid:hover{
+        font-size: 1.25em;
+    }
+
+    .menu {
+        display: none;
+    }
+
+  
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-details{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding-left: 5px;
+    }     
+
+
+    .footer-logo{
+        width: 250px;
+    }
+
+    #footers{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+
+    .social-media{
+        margin-top: 5px;
+    }
+
+
+
+    
+    
+
+}
