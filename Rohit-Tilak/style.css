@@ -40,7 +40,7 @@ body{
     top:0;
     width: auto;
     overflow: hidden;
-    z-index:100000;
+    z-index:100000000;
     border-bottom: 1px solid #c9c7c7;
     gap: 1rem;
     width: 100%;
@@ -362,7 +362,7 @@ p{
 .left-li {
     list-style: none;
     width: 22vw;
-    border: none;
+    border:none;
 }
 
 
@@ -1049,3 +1049,259 @@ footer{
 /* footer end */
 
 
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 425px)  {
+    .navbar .fa-bars{
+        display: initial;
+        font-size: 2rem;
+        margin: 30px 0 0 30px; 
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .filter-list-container{
+        display: none;
+    }
+
+    .logo{
+        width: 15%;
+        align-items: center;
+        margin-left: -25px;
+        padding: 0.315em;
+    }
+    
+    .logo > img {
+           height: 4.5em;
+           cursor: pointer;
+            margin: 0.5em 4em;
+    }
+    
+
+    .icons {
+        display: flex;
+        justify-content: space-between;
+       gap: 1.25em;
+        align-items: center;
+        cursor: pointer;
+        width: 6em;
+        overflow: hidden;
+        margin-left: 200px;
+    }
+    
+    .fa-regular:hover{
+        font-size: 1.25em;
+    }
+    
+    .fa-solid:hover{
+        font-size: 1.25em;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .h1{
+        font-size: 2rem;
+    }
+    .main-filter{
+        width: 400px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: start;
+        margin-left: 20px;
+    }
+    .left-section{
+        display: none;
+    }
+    .product-item-list{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 50vw;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-details{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding-left: 5px;
+    }     
+
+
+    .footer-logo{
+        width: 250px;
+    }
+
+    #footers{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+
+    .social-media{
+        margin-top: 5px;
+    }
+
+
+
+
+    .product-list-container-1{
+        width: 80vw;
+    }
+    
+    .product-list-container-2{
+        width: 80vw;
+    }
+    
+    .product-item-list{
+        width: 80vw;
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 20px;
+    }
+    
+    
+
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+
+    .navbar .fa-bars{
+        display: initial;
+        font-size: 2rem;
+        margin: 30px 0 0 30px; 
+    }
+    .logo img{
+        display: flex;
+        margin-left: 170px;
+        align-items: center;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .icons{
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 400px;
+    }
+    .filter-list-container{
+        margin-right: 30px;
+    }
+
+    footer{
+        width: 100%;
+        height: 80%;  
+        overflow-x: hidden;
+    }
+
+    
+
+
+    .footer-1{
+        width: 80%;
+        margin: 0em;
+        padding: 1em;
+        font-size: 16px;
+        line-height: 28.8px;
+        letter-spacing: 0.6px;
+         font-weight: 400;
+    }
+    
+    .contact-details{
+        margin-top: 0em;
+        margin-bottom: 0.625em;
+    
+    }
+    
+    .contact-details> p{
+        font-size: 0.7em;
+        line-height: 2em;
+        
+    }
+    
+    .sub-child{
+        width: 90vw;
+        height: 6.25em;
+        display: flex;
+        align-items: center;
+    }
+    
+    .h1{
+        margin-left: 1.25em;
+        font-size: 2.188em;
+        font-size: 40px;
+        margin-left: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .logo{
+        margin-left: -5px;
+    }
+    .menu>ul  {
+        list-style: none;    
+        display: flex;
+        gap: 1rem;
+        text-align: center;
+        margin-top: 0.72em;
+        font-size: 0.80em;
+        font-family: 'Inter', sans-serif;
+        line-height: 2em;
+        cursor: pointer;
+        
+    }
+
+    .icons {
+        display: flex;
+        justify-content: space-between;
+        gap: 1.25em;
+        align-items: center;
+        cursor: pointer;
+        width: 7em;
+        margin-left: 3em;
+    }
+
+    .h1{
+        margin-left: 0em;
+        font-size: 2.188em;
+        font-size: 40px;
+    }
+
+    .footer{
+        background-color: #f3f2f2;
+        overflow-x: hidden;
+        height: 100%;
+        display: flex;
+        /* margin-top: 20px; */
+        padding: 1em;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    .contact-details{
+        margin-top: 0.625em;
+        margin-bottom: 0.625em;
+    
+    }
+    
+    .contact-details> p{
+        font-size: 0.875em;
+        line-height: 2em;
+        
+}
+}
