@@ -4,11 +4,12 @@
 - I have not used any external CSS but for icons, I have used font-awesome
  3. Proper screenshots of different sections you made
   -![image](https://github.com/greatlalbabu/Bikaner-wala/assets/57435578/b5121ce7-d6d4-40ea-a977-3b2275d5a599)
-  -I have done "ready to eat food page"
+  -I have done the "ready to eat food page"
   4. Your learning from this project
 HTML Structure:
 -Ensure proper HTML document structure with <html>, <head>, and <body> elements.
-=Use semantic HTML elements to enhance the structure and meaning of your content (e.g., <header>, <nav>, <section>, <article>, <footer>).
+-Use semantic HTML elements to enhance the structure and meaning of your content (e.g., <header>, <nav>, <section>, 
+ <article>, <footer>).
 
 CSS Styling:
 -Apply styles using external stylesheets (preferred for maintenance) or internal styles within the <style> tag.
