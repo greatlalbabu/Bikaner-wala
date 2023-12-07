@@ -1,9 +1,34 @@
-1. I have used the semastic tag like : - header , footer , main and other tage like div , p, a, img , video , audio , selection, option, input .
-2. I have not used any external packages like tailwind or nay other.
-3. <img width="665" alt="Screenshot 2023-12-06 161917" src="https://github.com/greatlalbabu/Bikaner-wala/assets/129668926/4c855970-fafb-4b64-8968-90c0be1884aa">
-<img width="614" alt="Screenshot 2023-12-06 161931" src="https://github.com/greatlalbabu/Bikaner-wala/assets/129668926/23049a05-468d-409b-a438-657ef834cb79">
-<img width="555" alt="Screenshot 2023-12-06 161944" src="https://github.com/greatlalbabu/Bikaner-wala/assets/129668926/d7b4ad5c-a50b-413e-81c0-fbaae6b577c3">
-<img width="637" alt="Screenshot 2023-12-06 162008" src="https://github.com/greatlalbabu/Bikaner-wala/assets/129668926/1e1d1511-8803-4e33-8517-51ff4ee77f07">
-<img width="689" alt="Screenshot 2023-12-06 162036" src="https://github.com/greatlalbabu/Bikaner-wala/assets/129668926/d67b7739-61b9-423e-8644-3b09144523f2">
-<img width="394" alt="Screenshot 2023-12-06 162046" src="https://github.com/greatlalbabu/Bikaner-wala/assets/129668926/2e18fa98-3a7f-415b-ad9a-6e1440968250">
-4. In this I learned a lots of things like how to collaberate in one team , how to handle pressure , how to work with one team.
+## 1. What are the different tage you used (if sematic or not).
+I have used a few sematic tages like:-
+- header
+- main
+- navbar
+- footer
+----
+## 2. if you used any external package like tailwind or an other.
+I have not used any external packages like tail wind , bootstrap in this project. 
+
+----
+## 3.Properscreenshots of differnt section you make:-
+
+<img width="943" alt="Screenshot 2023-12-07 203834" src="https://github.com/greatlalbabu/Bikaner-wala/assets/129668926/e38db5b8-a932-4d28-b7fd-3be1cc78175a">
+
+----
+<img width="896" alt="Screenshot 2023-12-07 203909" src="https://github.com/greatlalbabu/Bikaner-wala/assets/129668926/a884698c-8488-42d3-84bb-f963c54ebca1">
+
+----
+<img width="907" alt="Screenshot 2023-12-07 204003" src="https://github.com/greatlalbabu/Bikaner-wala/assets/129668926/eb624971-6769-490d-b974-b19b9f278eb4">
+
+----
+## 4.Your learning from this project.
+-I have learned how to collaborate in a team.
+
+-How to handle pressure.
+
+-I have learned to how to work in a same team.
+
+-I have  learned lots of html and css properties.
+
+-I have learned how to build the proper html structure for big pages.
+
+
