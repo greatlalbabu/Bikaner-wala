@@ -873,7 +873,7 @@ footer{
 }
 @media only screen and (min-width: 426px) and (max-width: 768px) {
 
-    .navbar {
+    .navbar .fa-bars{
         display: initial;
         font-size: 2rem;
         margin: 30px 0 0 30px; 
@@ -908,7 +908,7 @@ footer{
 
     .footer-1{
         width: 80%;
-        margin: 2em;
+        margin: 0em;
         padding: 1em;
         font-size: 16px;
         line-height: 28.8px;
@@ -918,7 +918,7 @@ footer{
     
     .contact-details{
         margin-top: 0em;
-        margin-bottom: 0em;
+        margin-bottom: 0.625em;
     
     }
     
@@ -926,9 +926,6 @@ footer{
         font-size: 0.7em;
         line-height: 2em;
         
-    }
-    .like-our-products{
-        margin: 30px 0 0 80px;
     }
 }
 
@@ -942,38 +939,36 @@ footer{
     .navbar {
         display: initial;
         font-size: 2rem;
-        margin: 0 0 20px; 
+        margin: 30px 0 0 30px; 
         display: flex;
         justify-content: flex-start;
-        width: 112%;
-        padding-left: 1rem;
     }
 
    
 
     .logo{
-        width: 70%;
-        align-items: left;
-        /* margin-left: -15px; */
-        /* padding: 0.315em; */
+        width: 15%;
+        align-items: center;
+        margin-left: -25px;
+        padding: 0.315em;
     }
     
     .logo > img {
-           height: 2em;
+           height: 4.5em;
            cursor: pointer;
-            margin: 0.5em 1em;
+            margin: 0.5em 4em;
     }
     
 
     .icons {
         display: flex;
         justify-content: space-between;
-       gap: 1em;
+       gap: 1.25em;
         align-items: center;
         cursor: pointer;
         width: 6em;
         overflow: hidden;
-        margin-left: 100px;
+        margin-left: 200px;
     }
     
     .fa-regular:hover{
@@ -1020,61 +1015,9 @@ footer{
         margin-top: 5px;
     }
 
- .hero{
-    margin-left: 1rem;
- }
 
-.sweets_container{
-    display: flex;
-    margin-left: 1rem;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
 
-/* .Restaurants_containers{
-    display: flex;
-    /* flex-wrap: wrap; */
-    /* width: 100%;
-    flex-direction: column;     */
-
-    .Restaurants_containers .Restaurant-1{
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        width: 132%;
-        align-self: center;
-        padding-left: 1rem;
-        align-items: center;
-    }
-    
-    .Restaurant-1{
-        width: 100%;
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        width: 132%;
-        text-align:justify;
-        height: auto;
-    
-    }
-    
-    .Restaurant-1>img{
-        width: 100%;
-        margin-left: 2rem;
-        display: flex;
-        flex-direction: column;
-        /* width: 135%; */
-        align-items: center;
-        padding-left: .5rem;
-    }
-    
     
     
 
 }
-
-
-    
-    
-
